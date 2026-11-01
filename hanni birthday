@@ -1,0 +1,384 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Little Love Story ♡</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #e8e5e1;
+  color: #171717;
+  font-family: 'Comic Neue', cursive;
+}
+
+header {
+  text-align: center;
+  padding: 25px 10px;
+  background: white;
+  border-bottom: 4px solid black;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  margin: 0;
+}
+
+header p {
+  margin: 7px 0 0;
+}
+
+.book {
+  max-width: 650px;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.page {
+  display: none;
+  background: white;
+  border: 4px solid black;
+  padding: 18px;
+  min-height: 480px;
+  box-shadow: 7px 7px 0 #333;
+  animation: appear .4s ease;
+}
+
+.page.active {
+  display: block;
+}
+
+@keyframes appear {
+  from {opacity:0; transform:translateX(15px);}
+  to {opacity:1; transform:translateX(0);}
+}
+
+.chapter {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border-bottom: 2px solid black;
+  padding-bottom: 8px;
+}
+
+.cover {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.cover h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.heart {
+  font-size: 85px;
+  margin: 20px;
+}
+
+.panel {
+  border: 3px solid black;
+  margin: 15px 0;
+  padding: 15px;
+  min-height: 110px;
+  position: relative;
+  background:
+    radial-gradient(#bbb 0.8px, transparent 0.8px);
+  background-size: 6px 6px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.panel.dark {
+  background: #222;
+  color: white;
+}
+
+.panel h2 {
+  font-size: 23px;
+  margin: 8px;
+}
+
+.panel p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.speech {
+  background: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 15px;
+  max-width: 90%;
+  margin: 12px auto;
+  font-size: 17px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: center;
+  padding: 12px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 12px 20px;
+  background: black;
+  color: white;
+  border: 2px solid black;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: white;
+  color: black;
+}
+
+.page-number {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.final {
+  text-align: center;
+  padding-top: 45px;
+}
+
+.final h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 35px;
+}
+
+.final .heart {
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% { transform: scale(1.2); }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>♡ OUR LITTLE LOVE STORY ♡</h1>
+  <p>A manga made with love, just for you.</p>
+</header>
+
+<div class="book">
+
+  <!-- PAGE 1 -->
+  <section class="page active">
+    <div class="cover">
+      <div class="chapter">SPECIAL BIRTHDAY EDITION</div>
+      <div class="heart">♡</div>
+      <h2>OUR LITTLE<br>LOVE STORY</h2>
+      <p>ADJIE × HANNI</p>
+      <p>A story that I never want to end...</p>
+      <div class="panel dark">
+        <h2>CHAPTER 01</h2>
+        <p>The Day You Became My Favorite Person</p>
+      </div>
+      <p>01 NOVEMBER 2026</p>
+    </div>
+  </section>
+
+  <!-- PAGE 2 -->
+  <section class="page">
+    <div class="chapter">CHAPTER 01 — THE BEGINNING</div>
+
+    <div class="panel">
+      <h2>ある日...</h2>
+      <p>One ordinary day...</p>
+    </div>
+
+    <div class="panel dark">
+      <h2>✨</h2>
+      <p>Someone special came into my life.</p>
+    </div>
+
+    <div class="speech">
+      "I didn't know that someone so far away could become so close to my heart."
+    </div>
+
+    <div class="text">
+      I never expected that meeting you would become one of the most beautiful parts of my life.
+    </div>
+  </section>
+
+  <!-- PAGE 3 -->
+  <section class="page">
+    <div class="chapter">CHAPTER 02 — MY FAVORITE PERSON</div>
+
+    <div class="panel">
+      <h2>HANNI ♡</h2>
+      <p>The girl who makes my days brighter.</p>
+    </div>
+
+    <div class="panel dark">
+      <h2>♡ だいすき ♡</h2>
+      <p>Even from far away...</p>
+    </div>
+
+    <div class="text">
+      Your smile, your voice, your little habits, and even our silly conversations...
+
+      <br><br>
+
+      They are all things that I want to keep in my memories.
+    </div>
+  </section>
+
+  <!-- PAGE 4 -->
+  <section class="page">
+    <div class="chapter">CHAPTER 03 — DISTANCE</div>
+
+    <div class="panel">
+      <h2>🌙 + ⭐</h2>
+      <p>Two hearts, one beautiful story.</p>
+    </div>
+
+    <div class="speech">
+      "One day, I hope we won't have to say goodnight through a screen."
+    </div>
+
+    <div class="text">
+      Although there are many kilometers between us, I hope we can keep creating beautiful memories together.
+
+      <br><br>
+
+      Someday, I want to meet you, hold your hand, and make our little dreams come true.
+    </div>
+  </section>
+
+  <!-- PAGE 5 -->
+  <section class="page">
+    <div class="chapter">CHAPTER 04 — A LETTER FOR YOU</div>
+
+    <div class="panel dark">
+      <h2>DEAR HANNI ♡</h2>
+    </div>
+
+    <div class="text">
+      Happy birthday, my favorite person.
+
+      <br><br>
+
+      Thank you for coming into my life. Thank you for every little thing you have done and every beautiful memory we have shared.
+
+      <br><br>
+
+      I hope this new chapter of your life brings you happiness, good health, and countless reasons to smile.
+
+      <br><br>
+
+      Never forget how precious you are.
+      
+      <br><br>
+
+      With love,
+
+      <br>
+      Your Adjie ♡
+    </div>
+  </section>
+
+  <!-- PAGE 6 -->
+  <section class="page">
+    <div class="chapter">FINAL CHAPTER — HAPPY BIRTHDAY</div>
+
+    <div class="final">
+      <div class="heart">♡</div>
+      <h2>HAPPY<br>BIRTHDAY!</h2>
+
+      <h2>HANNI ♡</h2>
+
+      <div class="panel">
+        <p>今日はあなたの特別な日。</p>
+        <p>Today is your special day.</p>
+      </div>
+
+      <p class="text">
+        I hope your world is always filled with happiness.
+
+        <br><br>
+
+        This is just a little manga, but every page was made with love.
+
+        <br><br>
+
+        I love you, Hanni. ♡
+      </p>
+
+      <h2>THE END?</h2>
+      <p>To be continued... ♡</p>
+    </div>
+  </section>
+
+  <div class="controls">
+    <button onclick="changePage(-1)">← PREV</button>
+    <button onclick="changePage(1)">NEXT →</button>
+  </div>
+
+  <div class="page-number" id="number">PAGE 1 / 6</div>
+
+</div>
+
+<footer>
+  Made with love by Adjie ♡
+</footer>
+
+<script>
+let current = 0;
+const pages = document.querySelectorAll('.page');
+
+function changePage(direction) {
+  pages[current].classList.remove('active');
+
+  current += direction;
+
+  if (current < 0) current = 0;
+  if (current >= pages.length) current = pages.length - 1;
+
+  pages[current].classList.add('active');
+
+  document.getElementById('number').textContent =
+    `PAGE ${current + 1} / ${pages.length}`;
+
+  window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+
+</body>
+</html>
