@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#17162b">
+<title>Untuk Hanni ♡ — dari Adjie</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--ink:#fff8f7;--muted:#d8cbdc;--pink:#ffb9d1;--lav:#c9b8ff;--night:#17162b;--glass:rgba(255,255,255,.09)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;background:#17162b;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-3;background:radial-gradient(ellipse at 15% 20%,#614c83 0,transparent 38%),radial-gradient(ellipse at 85% 15%,#5b456c 0,transparent 32%),linear-gradient(145deg,#17162b,#29213d 55%,#141a31)}
+#stars{position:fixed;inset:0;z-index:-2;pointer-events:none;background-image:radial-gradient(2px 2px at 20px 30px,#fff 60%,transparent),radial-gradient(1px 1px at 80px 120px,#ffddeb 60%,transparent),radial-gradient(2px 2px at 150px 70px,#fff 60%,transparent),radial-gradient(1px 1px at 210px 180px,#fff 60%,transparent);background-size:260px 220px;opacity:.5;animation:twinkle 5s ease-in-out infinite alternate}
+@keyframes twinkle{to{opacity:.9;transform:translateY(-8px)}}
+.sakura{position:fixed;top:-30px;z-index:5;color:#ffd7e7;opacity:.7;pointer-events:none;animation:fall linear infinite}
+@keyframes fall{to{transform:translate3d(80px,110vh,0) rotate(360deg)}}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:17px clamp(18px,5vw,65px);background:linear-gradient(#17162bd9,transparent);backdrop-filter:blur(8px)}
+.brand{font-family:'Playfair Display',serif;letter-spacing:.08em}.music{border:1px solid #ffffff55;background:#ffffff12;color:white;border-radius:30px;padding:10px 16px;cursor:pointer;font:inherit}
+section{padding:100px 22px;max-width:1120px;margin:auto}.hero{min-height:100svh;display:grid;place-items:center;text-align:center;padding-top:110px}
+.eyebrow{letter-spacing:.24em;text-transform:uppercase;color:var(--pink);font-size:.72rem}.hero h1{font:600 clamp(3.5rem,12vw,8rem)/.98 'Playfair Display',serif;margin:18px 0 12px;text-shadow:0 8px 40px #0005}.hero h1 span{color:var(--pink);font-style:italic}.subtitle{color:var(--muted);max-width:580px;margin:0 auto 26px;line-height:1.8}
+.btn{display:inline-flex;align-items:center;gap:9px;border:0;border-radius:30px;padding:14px 22px;background:linear-gradient(110deg,#ffb9d1,#c9b8ff);color:#241b35;font-weight:700;text-decoration:none;cursor:pointer;box-shadow:0 10px 35px #d99acb33}
+.hero-photo{width:min(72vw,290px);aspect-ratio:4/5;object-fit:cover;border:7px solid #ffffffd9;border-radius:48% 48% 22px 22px;box-shadow:0 20px 80px #0008;transform:rotate(2deg);margin:38px auto 0}
+.scroll{margin-top:30px;color:#e6d8e7;font-size:.78rem;letter-spacing:.2em}
+.section-title{text-align:center;font:600 clamp(2.2rem,6vw,4rem) 'Playfair Display',serif;margin:0 0 14px}.section-lead{text-align:center;color:var(--muted);line-height:1.8;max-width:650px;margin:0 auto 42px}
+.glass{background:var(--glass);border:1px solid #ffffff24;border-radius:26px;backdrop-filter:blur(14px);box-shadow:0 18px 55px #0002}
+.story{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:25px}.story img{width:100%;border-radius:18px;display:block;object-fit:cover}.story p{color:#eee3ef;line-height:1.95}.story h3{font:600 1.8rem 'Playfair Display',serif;color:var(--pink)}
+.promise{margin-top:28px;padding:35px;text-align:center}.promise p{font:500 clamp(1.3rem,3vw,2rem)/1.65 'Playfair Display',serif;margin:0}.promise small{display:block;color:var(--pink);margin-top:18px;letter-spacing:.12em}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.gallery figure{margin:0;padding:12px}.gallery img{width:100%;display:block;border-radius:15px}.gallery figcaption{padding:12px 4px 3px;color:#f3dce9;text-align:center;font-size:.9rem}
+.letter{padding:22px;max-width:850px;margin:auto}.letter img{width:100%;display:block;border-radius:14px}.letter-note{text-align:center;color:var(--muted);line-height:1.8;margin:22px auto 0;max-width:620px}
+.countdown{text-align:center;padding:36px 20px}.date{font:600 clamp(2.6rem,9vw,5rem) 'Playfair Display',serif;color:var(--pink);margin:10px}
+.final{text-align:center;padding-bottom:130px}.final h2{font:600 clamp(2.6rem,8vw,5.4rem) 'Playfair Display',serif;margin:10px}.final p{color:var(--muted);line-height:1.9;max-width:610px;margin:0 auto 25px}
+footer{text-align:center;padding:22px;color:#bdb0c8;font-size:.8rem;border-top:1px solid #ffffff15}
+.hidden{display:none}.reveal{animation:appear .8s ease both}@keyframes appear{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+#toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);padding:12px 18px;background:#fff;color:#2a2038;border-radius:30px;z-index:20;display:none}
+@media(max-width:720px){section{padding:78px 18px}.story{grid-template-columns:1fr;padding:16px}.story img{max-height:340px}.gallery{grid-template-columns:1fr}.hero-photo{width:min(68vw,250px)}nav{padding:14px 16px}}
+</style>
+</head>
+<body>
+<div id="stars"></div>
+<nav><div class="brand">A ♡ H</div><button class="music" id="musicBtn">♫ Putar musik</button></nav>
+<audio id="bgMusic" loop preload="metadata"><source src="assets/perhaps-love.m4a" type="audio/mp4"></audio>
+<main>
+<section class="hero" id="home">
+ <div>
+  <div class="eyebrow">A little universe made for you</div>
+  <h1>Happy Birthday,<br><span>Hanni</span> ♡</h1>
+  <p class="subtitle">Untuk seseorang yang membuat hari-hariku terasa lebih hangat. Hari ini, seluruh bintang di langit seolah ikut merayakan kehadiranmu.</p>
+  <button class="btn" id="startBtn">Buka hadiah kecilmu ✧</button>
+  <br><img class="hero-photo" src="assets/hanni-photo.jpg" alt="Foto Hanni">
+  <div class="scroll">SCROLL TO OUR LITTLE STORY ↓</div>
+ </div>
+</section>
+
+<div id="gift" class="hidden">
+<section id="message">
+ <h2 class="section-title">Untuk gadis kesayanganku</h2>
+ <p class="section-lead">Ada banyak hal yang ingin Adjie sampaikan, dan hari spesialmu adalah waktu yang tepat untuk menuliskannya.</p>
+ <div class="story glass">
+  <img src="assets/hanni-photo.jpg" alt="Foto Hanni dengan filter bintang">
+  <div><h3>Hai, Hanni…</h3>
+   <p>Selamat ulang tahun, sayang. Terima kasih sudah hadir di hidupku. Terima kasih karena tetap menjadi dirimu sendiri, karena sudah berbagi tawa, cerita, dan waktu denganku.</p>
+   <p>Aku mungkin belum selalu sempurna dalam menunjukkan perasaanku, tetapi aku ingin terus belajar menjadi seseorang yang bisa membuatmu merasa disayangi, dihargai, dan didengarkan.</p>
+  </div>
+ </div>
+ <div class="promise glass"><p>“Setiap momen bersamamu, entah saat kita tertawa atau sedang melewati hari yang sulit, selalu punya tempat istimewa di hatiku.”</p><small>— ADJIE ♡</small></div>
+</section>
+
+<section id="little-things">
+ <h2 class="section-title">Hal-hal kecil tentang kita</h2>
+ <p class="section-lead">Mungkin sederhana, tetapi semuanya berarti bagiku.</p>
+ <div class="gallery">
+  <figure class="glass"><img src="assets/hanni-photo.jpg" alt="Potret Hanni"><figcaption>Senyummu adalah salah satu hal yang ingin selalu kuingat ♡</figcaption></figure>
+  <figure class="glass"><img src="assets/pepsi-sketch.png" alt="Sketsa Pepsi buatan tangan"><figcaption>Coretan kecil yang punya cerita sendiri ✎</figcaption></figure>
+ </div>
+</section>
+
+<section id="letter">
+ <h2 class="section-title">Surat kecil dari Adjie</h2>
+ <p class="section-lead">Ada pesan yang kutulis khusus untukmu. Bacalah pelan-pelan, ya.</p>
+ <div class="letter glass"><img src="assets/birthday-letter.png" alt="Surat ulang tahun tulisan tangan untuk Hanni">
+  <p class="letter-note">Tulisan tangan ini menyimpan harapan yang sama: semoga kamu selalu sehat, bahagia, dan dikelilingi hal-hal baik. Terima kasih sudah menjadi bagian dari ceritaku.</p>
+ </div>
+</section>
+
+<section class="countdown glass">
+ <div class="eyebrow">A date to remember</div>
+ <div class="date">02 · 11 · 2026</div>
+ <p class="section-lead" style="margin-bottom:0">Hari ketika dunia merayakan seseorang yang sangat berarti bagiku.</p>
+</section>
+
+<section class="final">
+ <div class="eyebrow">My favorite person</div>
+ <h2>Stay happy, Hanni ♡</h2>
+ <p>Semoga tahun barumu dipenuhi kesehatan, ketenangan, kesempatan baik, dan banyak alasan untuk tersenyum. Apa pun yang akan datang, aku berharap kita bisa terus saling memahami dan tumbuh bersama.</p>
+ <p style="font:600 1.7rem 'Playfair Display',serif;color:var(--pink)">Aku sayang kamu, Hanni.</p>
+ <p>Dengan penuh cinta,<br><strong>Adjie</strong> ♡</p>
+ <button class="btn" id="heartBtn">Kirim satu pelukan virtual ♡</button>
+</section>
+</div>
+</main>
+<footer>Dibuat dengan cinta oleh Adjie, khusus untuk Hanni · 02.11.2026</footer>
+<div id="toast">Satu pelukan hangat untukmu, Hanni ♡</div>
+<script>
+const music=document.getElementById('bgMusic'), musicBtn=document.getElementById('musicBtn');
+musicBtn.addEventListener('click',async()=>{try{if(music.paused){await music.play();musicBtn.textContent='♫ Musik sedang diputar';}else{music.pause();musicBtn.textContent='♫ Putar musik';}}catch(e){musicBtn.textContent='Musik belum bisa diputar';}});
+document.getElementById('startBtn').addEventListener('click',()=>{document.getElementById('gift').classList.remove('hidden');document.getElementById('gift').classList.add('reveal');document.getElementById('message').scrollIntoView({behavior:'smooth'});music.play().then(()=>musicBtn.textContent='♫ Musik sedang diputar').catch(()=>{});});
+document.getElementById('heartBtn').addEventListener('click',()=>{const t=document.getElementById('toast');t.style.display='block';setTimeout(()=>t.style.display='none',2600);});
+for(let i=0;i<18;i++){const s=document.createElement('span');s.className='sakura';s.textContent=['✦','✧','❀'][i%3];s.style.left=Math.random()*100+'vw';s.style.animationDuration=(9+Math.random()*12)+'s';s.style.animationDelay=(-Math.random()*18)+'s';s.style.fontSize=(12+Math.random()*15)+'px';document.body.appendChild(s);}
+</script>
+</body>
+</html>
