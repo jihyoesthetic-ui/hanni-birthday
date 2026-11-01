@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#17182b">
+<title>Untuk Hanni — A Little Piece of My Sky</title>
+<style>
+:root{--ink:#17182b;--cream:#fff9f1;--pink:#ffd6e4;--blue:#c9ddff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ink);color:var(--cream);font-family:Georgia,"Times New Roman",serif;overflow-x:hidden}
+.sky{position:fixed;inset:0;z-index:-2;background:linear-gradient(180deg,rgba(10,12,30,.34),rgba(10,12,30,.88)),url("assets/background.jpg") center 38%/cover no-repeat;filter:saturate(.8)}
+.sky:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 25%,transparent 0 18%,rgba(9,10,27,.36) 72%)}
+.stars{position:fixed;inset:0;pointer-events:none;z-index:-1;background-image:radial-gradient(2px 2px at 12% 18%,#fff 98%,transparent),radial-gradient(1px 1px at 78% 13%,#fff 98%,transparent),radial-gradient(2px 2px at 64% 38%,#fff 98%,transparent),radial-gradient(1px 1px at 28% 72%,#fff 98%,transparent),radial-gradient(2px 2px at 88% 81%,#fff 98%,transparent);background-size:230px 210px;opacity:.7;animation:twinkle 5s ease-in-out infinite alternate}
+@keyframes twinkle{to{opacity:.28}}
+header{min-height:100svh;display:grid;place-items:center;text-align:center;padding:36px 20px}
+.hero{max-width:760px;padding:34px 24px;background:rgba(16,18,42,.38);border:1px solid rgba(255,255,255,.22);border-radius:26px;backdrop-filter:blur(7px);box-shadow:0 20px 70px #090a1d66}
+.eyebrow{letter-spacing:.32em;text-transform:uppercase;font:11px Arial,sans-serif;color:#d7e5ff}
+h1{font-size:clamp(42px,9vw,82px);font-weight:400;line-height:1.02;margin:22px 0 12px;text-shadow:0 3px 24px #0008}
+h1 span{display:block;color:var(--pink);font-style:italic}
+.subtitle{font:14px/1.8 Arial,sans-serif;color:#f3eaf3;max-width:480px;margin:18px auto 28px}
+button,.file-label{border:1px solid #fff8;background:#fff;color:#25243b;padding:13px 22px;border-radius:30px;font:600 12px Arial,sans-serif;letter-spacing:.08em;cursor:pointer;transition:.25s}
+button:hover,.file-label:hover{transform:translateY(-2px);box-shadow:0 8px 25px #0005}
+section{padding:75px 20px;display:flex;justify-content:center}
+.paper{width:min(720px,100%);padding:clamp(25px,6vw,54px);background:rgba(255,249,241,.94);color:#28243b;border-radius:5px;box-shadow:0 20px 60px #0005;position:relative}
+.paper:before{content:"";position:absolute;inset:10px;border:1px solid #d9cbd0;pointer-events:none}
+.kicker{text-align:center;color:#8a7185;font:11px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase}
+h2{text-align:center;font-weight:400;font-size:clamp(30px,6vw,46px);margin:13px 0 25px}
+.message{font-size:18px;line-height:1.95;white-space:pre-line}
+.signature{text-align:right;font-style:italic;font-size:21px;margin-top:28px;color:#8a607d}
+.memory{text-align:center;font-size:16px;line-height:1.9;color:#f9eff8;max-width:620px}
+.memory strong{display:block;font-size:30px;font-weight:400;color:var(--pink);margin-bottom:12px}
+.music{width:min(620px,100%);padding:28px;background:#17182bd9;border:1px solid #ffffff35;border-radius:18px;text-align:center}
+.music h2{color:#fff;margin-top:0}
+.music p{font:13px/1.7 Arial,sans-serif;color:#ddd}
+.controls{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin-top:18px}
+input[type=file]{display:none}
+#trackName{font:12px Arial,sans-serif;color:#f6dce8;margin-top:12px;overflow-wrap:anywhere}
+footer{text-align:center;padding:30px 18px 55px;color:#d5cbdc;font:12px Arial,sans-serif;letter-spacing:.08em}
+.heart{color:#ffb8d0}
+@media(max-width:520px){.hero{padding:30px 17px}.message{font-size:16px}.paper{padding:30px 25px}}
+</style>
+</head>
+<body>
+<div class="sky"></div><div class="stars"></div>
+<header>
+ <div class="hero">
+  <div class="eyebrow">a little universe, made for you</div>
+  <h1>Happy Birthday,<span>Hanni ♡</span></h1>
+  <p class="subtitle">Di antara begitu banyak bintang, aku bersyukur semesta mempertemukan aku denganmu.</p>
+  <button onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">BUKA SURAT KECILKU ↓</button>
+ </div>
+</header>
+<section id="letter">
+ <article class="paper">
+  <div class="kicker">to my favorite person</div>
+  <h2>Untuk Hanni,</h2>
+  <div class="message">Selamat ulang tahun, sayangku. ❤️
+
+Kalau dunia ini seluas langit malam, aku ingin menjadi seseorang yang selalu mengingatkanmu bahwa kamu tidak pernah sendirian.
+
+Terima kasih sudah hadir dan membawa begitu banyak warna ke hari-hariku. Aku mungkin tidak selalu pandai merangkai kata, tetapi satu hal yang ingin selalu kamu tahu: kehadiranmu sangat berarti bagiku.
+
+Aku berharap tahun ini memberimu banyak alasan untuk tersenyum, keberanian untuk mengejar semua impianmu, kesehatan, dan hari-hari yang penuh kebahagiaan. Saat harimu terasa berat, semoga kamu selalu menemukan tempat untuk beristirahat dan orang-orang yang menyayangimu.
+
+Seandainya aku bisa meminta satu hal kepada bintang jatuh malam ini, aku akan meminta kesempatan untuk terus membuat kenangan indah bersamamu—pelan-pelan, satu hari demi satu hari.
+
+Jangan pernah merasa harus menjadi sempurna, Hanni. Menjadi dirimu sendiri sudah sangat berharga.
+
+Selamat ulang tahun, baobao. Semoga suatu hari nanti kita bisa melihat langit yang sama dari tempat yang sama. Sampai saat itu tiba, biarkan surat kecil ini menjadi pengingat bahwa ada seseorang yang selalu mendoakan kebahagiaanmu.</div>
+  <div class="signature">Dengan penuh kasih, Adjie ♡</div>
+ </article>
+</section>
+<section>
+ <div class="memory"><strong>“I found you in this lifetime.”</strong>
+Seperti dua bintang yang akhirnya berada di langit yang sama, semoga perjalanan kita dipenuhi cerita baik, tawa, dan harapan yang tidak pernah padam.
+ </div>
+</section>
+<section>
+ <div class="music">
+  <div class="kicker">our little soundtrack</div>
+  <h2>Putar lagu kita ♫</h2>
+  <p>Pilih file MP3 dari perangkatmu untuk memutar “Perhaps Love” atau lagu Korea favorit kalian. Musik hanya diputar dari file yang kamu pilih.</p>
+  <div class="controls">
+   <label class="file-label" for="audioFile">PILIH LAGU MP3</label>
+   <button id="playBtn" type="button">▶ PUTAR</button>
+   <button id="pauseBtn" type="button">Ⅱ JEDA</button>
+  </div>
+  <div id="trackName">Belum ada lagu yang dipilih.</div>
+  <audio id="player" loop></audio>
+ </div>
+</section>
+<footer>MADE WITH <span class="heart">♥</span> BY ADJIE · FOR HANNI · 02.11.2026</footer>
+<input id="audioFile" type="file" accept="audio/mpeg,audio/mp3,audio/*">
+<script>
+const picker=document.getElementById('audioFile');
+const player=document.getElementById('player');
+const trackName=document.getElementById('trackName');
+picker.addEventListener('change',()=>{
+ const file=picker.files&&picker.files[0];
+ if(!file)return;
+ if(player.src)URL.revokeObjectURL(player.src);
+ player.src=URL.createObjectURL(file);
+ trackName.textContent='Lagu dipilih: '+file.name;
+ player.play().catch(()=>{trackName.textContent='Lagu siap diputar: '+file.name+' — tekan tombol PUTAR.'});
+});
+document.getElementById('playBtn').addEventListener('click',()=>{
+ if(!player.src){trackName.textContent='Pilih file MP3 terlebih dahulu.';return;}
+ player.play();
+});
+document.getElementById('pauseBtn').addEventListener('click',()=>player.pause());
+</script>
+</body>
+</html>
